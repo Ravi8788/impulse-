@@ -246,7 +246,7 @@ Browser: Chrome, Firefox, Safari, Edge
 **Contact Section Test**
 - [ ] Address visible: "S. No. 70 Sonali Photo Studio Line, Ganes Sangavi, Pune"
 - [ ] Email visible: "impulsemacro.gmail.com" (clickable mailto link)
-- [ ] Phone visible: "+91 74984 33551" (clickable tel link)
+- [ ] Phone visible: "+91 74984 35351" (clickable tel link)
 - [ ] Contact form has fields: Name, Email, Phone, Message
 - [ ] Form fields accept input
 - [ ] Submit button clickable
@@ -254,7 +254,7 @@ Browser: Chrome, Firefox, Safari, Edge
 **Social Links Test**
 - [ ] Instagram link works: https://www.instagram.com/impulsemacro/ ✓
 - [ ] LinkedIn link works: https://www.linkedin.com/company/impulsemacro/ ✓
-- [ ] WhatsApp link works: wa.me/917498433551 ✓
+- [ ] WhatsApp link works: wa.me/917498435351 ✓
 - [ ] All links open in new tab (target="_blank")
 
 **Legal Pages Test**
@@ -376,7 +376,7 @@ Browser: Chrome, Firefox, Safari, Edge
 
 **ImpulseMacro Innovation**
 - 📧 Email: impulsemacro.gmail.com
-- 📱 Phone: +91 74984 33551
+- 📱 Phone: +91 74984 35351
 - 🌐 Website: https://yourdomain.com
 - 📍 Address: S. No. 70 Sonali Photo Studio Line, Ganes Sangavi, Pune
 

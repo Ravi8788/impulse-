@@ -213,7 +213,7 @@ See **[MASTER-DEPLOYMENT-CHECKLIST.md](MASTER-DEPLOYMENT-CHECKLIST.md)** for com
 
 **ImpulseMacro Innovation**
 - 📧 Email: impulsemacro.gmail.com
-- 📱 Phone: +91 74984 33551
+- 📱 Phone: +91 74984 35351
 - 📍 Address: S. No. 70 Sonali Photo Studio Line, Ganes Sangavi, Pune
 - 🌐 LinkedIn: https://www.linkedin.com/company/impulsemacro/
 - 📸 Instagram: https://www.instagram.com/impulsemacro/

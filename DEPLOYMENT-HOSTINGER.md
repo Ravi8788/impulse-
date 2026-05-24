@@ -319,7 +319,7 @@ After uploading to Hostinger, verify everything works:
 
 - **Hostinger Support:** https://support.hostinger.com
 - **Company Email:** impulsemacro.gmail.com
-- **Company Phone:** +91 74984 33551
+- **Company Phone:** +91 74984 35351
 - **Instagram:** https://www.instagram.com/impulsemacro/
 - **LinkedIn:** https://www.linkedin.com/company/impulsemacro/
 

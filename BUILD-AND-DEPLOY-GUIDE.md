@@ -330,7 +330,7 @@ npm run audit:mobile    # Check scores
 - **Build Issues:** Check terminal output for error messages
 - **Hostinger Deployment:** See `DEPLOYMENT-HOSTINGER.md`
 - **Quick Reference:** See `DEPLOYMENT-QUICK-REFERENCE.txt`
-- **Company Support:** impulsemacro.gmail.com | +91 74984 33551
+- **Company Support:** impulsemacro.gmail.com | +91 74984 35351
 
 ---
 
