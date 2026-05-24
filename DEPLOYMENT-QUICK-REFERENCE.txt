@@ -1,0 +1,166 @@
+# 🚀 QUICK DEPLOYMENT REFERENCE - ImpulseMacro Innovation
+
+## For Hostinger Deployment Team
+
+### **Files to Upload (Complete List)**
+
+```
+Root Files (public_html/):
+✅ index.html
+✅ privacy-policy.html
+✅ terms-of-service.html
+✅ cookie-policy.html
+✅ robots.txt
+✅ sitemap.xml
+✅ .htaccess (create this file - see below)
+
+CSS Files (css/ folder):
+✅ style.min.css
+✅ animations.min.css
+
+JavaScript Files (js/ folder):
+✅ main.min.js
+✅ utils.min.js
+✅ animations.min.js
+
+Assets (assets/ folder):
+✅ images/ (all files including logo.svg)
+✅ fonts/ (all files)
+✅ icons/ (all files)
+
+Case Studies (case-studies/ folder):
+✅ swadeshi-mart.html
+✅ athavle-sweets-website.html
+✅ medical-b2b-system.html
+✅ secure-android-app.html
+✅ lead-generation-pipeline.html
+✅ blockchain-voting-platform.html
+```
+
+---
+
+## **3-Minute Setup (File Manager)**
+
+1. **Log into Hostinger** → Files → File Manager
+2. **Create folder structure:**
+   - `css/` → Upload `style.min.css`, `animations.min.css`
+   - `js/` → Upload `main.min.js`, `utils.min.js`, `animations.min.js`
+   - `assets/` → Upload `images/`, `fonts/`, `icons/` folders
+   - `case-studies/` → Upload all 6 HTML files
+
+3. **Upload root files:**
+   - index.html, privacy-policy.html, terms-of-service.html, cookie-policy.html
+   - robots.txt, sitemap.xml
+
+4. **Create .htaccess file:**
+   - Right-click in public_html → New File → Name: `.htaccess`
+   - Paste content from `DEPLOYMENT-HOSTINGER.md` file
+
+5. **Test:** Open `https://yourdomain.com` in browser
+
+---
+
+## **Minimal .htaccess (If Full Version Too Complex)**
+
+```apache
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresDefault "access plus 7 days"
+</IfModule>
+```
+
+---
+
+## **Social Media Links (Updated)**
+
+- **Instagram:** https://www.instagram.com/impulsemacro/
+- **LinkedIn:** https://www.linkedin.com/company/impulsemacro/
+- **WhatsApp:** wa.me/917498433551
+- **Email:** impulsemacro.gmail.com
+- **Phone:** +91 74984 33551
+- **Address:** S. No. 70 Sonali Photo Studio Line, Ganes Sangavi, Pune, Maharashtra 411027
+
+---
+
+## **File Size Reference (Min Files Should Be Small)**
+
+- `style.min.css` → ~12-15 KB (not 150KB+)
+- `animations.min.css` → ~2-3 KB
+- `main.min.js` → ~4-6 KB (not 20KB+)
+- `utils.min.js` → ~1-2 KB
+- `animations.min.js` → ~1-2 KB
+
+✅ **If files are much larger, they may not be minified - re-run build!**
+
+---
+
+## **Quick Test Checklist**
+
+After uploading:
+- [ ] Homepage loads without 404 errors
+- [ ] All CSS styling displays (blue colors, white background)
+- [ ] JavaScript works (scroll animations, form interaction)
+- [ ] Navigation links scroll smoothly
+- [ ] Portfolio cards show project images
+- [ ] Portfolio projects link to case study pages
+- [ ] Contact form fields respond to input
+- [ ] Mobile view works (menu collapses on small screens)
+- [ ] Social links open correctly in new tabs
+
+---
+
+## **Troubleshooting**
+
+| Problem | Solution |
+|---------|----------|
+| CSS not loading (page looks broken) | Check file paths in index.html match uploaded folder names |
+| JavaScript errors in console | Clear browser cache (Ctrl+Shift+Delete) and hard refresh (Ctrl+F5) |
+| Images broken (404 errors) | Verify /assets/images/ folder was uploaded with all files |
+| Forms don't work | Check browser console (F12) - JavaScript should run without errors |
+| Slow page load | Verify .min files being used; check .htaccess caching enabled |
+| Case study pages return 404 | Confirm case-studies/ folder exists with all 6 HTML files |
+
+---
+
+## **Email Setup (Optional)**
+
+To receive contact form submissions via email:
+1. Log into Hostinger → Email
+2. Create email: support@yourdomain.com
+3. Update JavaScript in main.js to use email service (Formspree, EmailJS, etc.)
+4. Or set up PHP mail handler
+
+---
+
+## **SEO Verification**
+
+After going live, submit to Google:
+1. Google Search Console: https://search.google.com/search-console
+2. Add sitemap: yourdomain.com/sitemap.xml
+3. Check robots.txt: yourdomain.com/robots.txt
+
+---
+
+**Need full details? See: `DEPLOYMENT-HOSTINGER.md` for complete guide**
+
+---
+
+### Company Contact
+📧 **Email:** impulsemacro.gmail.com  
+📱 **Phone:** +91 74984 33551  
+📍 **Location:** Pune, India  
+🌐 **Website:** yourdomain.com  
+
+---
+
+**Last Updated:** May 24, 2026  
+**Status:** ✅ Ready for Production Deployment

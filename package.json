@@ -1,0 +1,29 @@
+{
+  "name": "impulsemc-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static marketing website for ImpulseMacro Innovation Private Limited",
+  "scripts": {
+    "dev": "serve . -l 3000",
+    "preview": "serve . -l 4173",
+    "build:css": "cleancss -O2 -o css/style.min.css css/style.css && cleancss -O2 -o css/animations.min.css css/animations.css",
+    "build:js": "terser js/utils.js -c -m -o js/utils.min.js && terser js/animations.js -c -m -o js/animations.min.js && terser js/main.js -c -m -o js/main.min.js",
+    "build": "npm run build:css && npm run build:js",
+    "lighthouse:mobile": "lighthouse http://127.0.0.1:4173 --only-categories=performance,accessibility,best-practices,seo --form-factor=mobile --screenEmulation.mobile=true --throttling-method=simulate --chrome-flags=--headless --output html --output json --output-path reports/lighthouse-mobile",
+    "audit:mobile": "start-server-and-test preview http://127.0.0.1:4173 lighthouse:mobile"
+  },
+  "keywords": [
+    "static-site",
+    "impulsemacro",
+    "software-company",
+    "ai-solutions"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "lighthouse": "^12.6.0",
+    "serve": "^14.2.4",
+    "start-server-and-test": "^2.0.10",
+    "terser": "^5.31.1"
+  }
+}
